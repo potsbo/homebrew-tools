@@ -13,6 +13,8 @@ matrix:
     # OS X 10.11
     - os: osx
       osx_image: xcode8
+  allow_failures:
+    - os: linux
 
 install:
   - brew update
